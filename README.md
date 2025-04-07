@@ -1,39 +1,39 @@
-<div align="center">
-  <a href="https://discordapp.com/users/svarrogh/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
-  </a>
-  <a href="https://kubernetes.slack.com/team/U07BVSYJC64" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/slack/default.svg" width="52" height="40" alt="slack logo"  />
-  </a>
-</div>
+# Hi Stranger! 👋
 
-###
+Welcome to my GitHub profile! 
+I’m a Platform Engineer by day and a passionate football (soccer) player by night.<br />
+In between, I contribute to open source projects.
+---
 
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="40" alt="kubernetes logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" height="40" alt="jenkins logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/argocd/argocd-original.svg" height="40" alt="argocd logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" height="40" alt="amazonwebservices logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="40" alt="azure logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/go/00ADD8" height="40" alt="go logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/python/3776AB" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/prometheus/E6522C" height="40" alt="prometheus logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/grafana/F46800" height="40" alt="grafana logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
-</div>
+## 🛠️ About Me
 
-###
+- ✈️ Currently employed by: [Lufthansa Technik](https://www.lufthansa-technik.com/en/Tech-Hub-Sofia)
+- 💬 Get in touch with me: [Kubernetes Slack](https://kubernetes.slack.com/team/U07BVSYJC64)
+- ⚡ Fun fact: I am xVMware
+---
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app?username=svarrogh1337&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
-</div>
+## 📊 GitHub Stats
 
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=svarrogh1337&show_icons=true&theme=radical&hide=stars&count_private=true)
+
+---
+
+## 👨‍💻 Technologies & Tools
+
+### Languages:
+- Go
+- Python
+
+### My daily tools:
+- OpenShift and OKD
+- Kubernetes
+- Operator framework and kubebuilder
+
+---
+
+## 📫 Let's Connect!
+
+- [LinkedIn](https://www.linkedin.com/in/svarrogh1337/)  
+- [Portfolio/Website](https://hhristov.info)  
+
+---
