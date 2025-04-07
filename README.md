@@ -10,6 +10,9 @@ In between, I contribute to open source projects.
 - ✈️ Currently employed by: [Lufthansa Technik](https://www.lufthansa-technik.com/en/Tech-Hub-Sofia)
 - 💬 Get in touch with me: [Kubernetes Slack](https://kubernetes.slack.com/team/U07BVSYJC64)
 - ⚡ Fun fact: I am xVMware
+- 🧠 Favorite quote:
+"Never trust quotes on the internet."
+  Abraham Lincoln, 1462
 ---
 
 ## 📊 GitHub Stats
