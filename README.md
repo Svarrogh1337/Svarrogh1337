@@ -22,10 +22,7 @@ In between, I contribute to open source projects.
 ---
 
 ## 👨‍💻 Technologies & Tools
-
-### Languages:
-- Go
-- Python
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=svarrogh1337&layout=compact)
 
 ### My daily tools:
 - OpenShift and OKD
