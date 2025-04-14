@@ -17,7 +17,7 @@ In between, I contribute to open source projects.
 
 ## 📊 GitHub Stats
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=svarrogh1337&show_icons=true&theme=radical&hide=stars&count_private=true)
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=svarrogh1337&show_icons=true&theme=transparent&hide=stars&count_private=true)
 
 ---
 
