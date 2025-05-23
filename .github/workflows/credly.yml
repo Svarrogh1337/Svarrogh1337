@@ -3,7 +3,7 @@ permissions: {}
 
 on:
   schedule:
-    - cron: '20 10 * * *'  # Run every day at midnight
+    - cron: '40 10 * * *'
 jobs:
   stale:
     runs-on: ubuntu-latest
@@ -11,6 +11,6 @@ jobs:
       - name: Download credly data
         uses: michaelcontento/credly-import-action@v1
         with:
-          name: svarrogh1337
+          username: svarrogh1337
           datafile: data/CustomFile.json
           imagedir: images
