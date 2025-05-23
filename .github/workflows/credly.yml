@@ -3,7 +3,7 @@ permissions: {}
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Run every day at midnight
+    - cron: '20 10 * * *'  # Run every day at midnight
 jobs:
   stale:
     runs-on: ubuntu-latest
