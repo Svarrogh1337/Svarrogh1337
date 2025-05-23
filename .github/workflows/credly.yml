@@ -1,0 +1,16 @@
+name: Credly-Bot
+permissions: {}
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Run every day at midnight
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download credly data
+        uses: michaelcontento/credly-import-action@v1
+        with:
+          name: svarrogh1337
+          datafile: data/CustomFile.json
+          imagedir: images
