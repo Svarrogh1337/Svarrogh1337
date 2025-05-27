@@ -3,7 +3,7 @@ permissions: {}
 
 on:
   schedule:
-    - cron: '40 10 * * *'
+    - cron: '20 8 * * *'
 jobs:
   stale:
     runs-on: ubuntu-latest
@@ -12,5 +12,3 @@ jobs:
         uses: michaelcontento/credly-import-action@v1
         with:
           username: svarrogh1337
-          datafile: data/CustomFile.json
-          imagedir: images
