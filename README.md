@@ -5,7 +5,6 @@ I'm a Platform Engineer dedicated to building reliable, scalable, and efficient 
 
 ## 🛠️ About Me
 
-- ✈️ Currently employed by: [Vaerolabs](https://vaerolabs.com) - [subsidiary of Lufthansa Technik](https://www.lufthansa-technik.com/en)
 - 🧑‍💻 Maintainer of:
   - Capsule - [GitHub](https://github.com/projectcapsule/capsule) [Website](https://projectcapsule.dev/)
 - 💬 Get in touch with me: [Kubernetes Slack](https://kubernetes.slack.com/team/U07BVSYJC64)
