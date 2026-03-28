@@ -15,5 +15,11 @@ I'm a Platform Engineer dedicated to building reliable, scalable, and efficient 
 ## 🎖️ Achievements
 
 ---
+<a href=https://www.credly.com/badges/d4353a7d-4ade-4af5-8b67-d1976825b0ac/public_url><img src="img/kubestronaut.png" alt="Kubestronaut" width="100" height="100"></a>
 <a href=https://www.credly.com/badges/38526f68-d9cc-44b4-8a34-67c092588333/public_url><img src="img/cka.png" alt="CKA" width="100" height="100"></a>
+<a href=https://www.credly.com/badges/464335c8-947d-4161-b483-d8a3a8275b94/public_url><img src="img/ckad.png" alt="CKAD" width="100" height="100"></a>
+<a href=https://www.credly.com/badges/ec497faf-7d88-467e-850a-59829e8dac6d/public_url><img src="img/cks.png" alt="CKS" width="100" height="100"></a>
 <a href=https://www.credly.com/badges/2f65ffb2-9a8c-4a15-90e9-13c1dab52896/public_url><img src="img/kcna.png" alt="KCNA" width="100" height="100"></a>
+<a href=https://www.credly.com/badges/b446001e-2a92-4770-8987-7c6a35eefe9c/public_url><img src="img/kcsa.png" alt="KCSA" width="100" height="100"></a>
+
+
