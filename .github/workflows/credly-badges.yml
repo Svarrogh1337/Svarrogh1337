@@ -26,6 +26,12 @@ jobs:
         with:
           node-version: 20
 
+      - name: Ensure ImageMagick (for badge background cleanup)
+        run: |
+          if ! magick -version >/dev/null 2>&1 && ! convert -version >/dev/null 2>&1; then
+            sudo apt-get update && sudo apt-get install -y imagemagick
+          fi
+
       - name: Update badges from Credly
         env:
           CREDLY_VANITY: svarrogh1337
