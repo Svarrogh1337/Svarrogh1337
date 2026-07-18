@@ -62,7 +62,7 @@ I care about making multi-tenancy and cluster security approachable on stage.
 <!-- TODO: add real talks. Delete the example row once you fill this in. -->
 | Date | Event | Talk | Links |
 |------|-------|------|-------|
-| 2026 | KubeCon | _Topic TBA_ | 🎫 [badge](https://www.credly.com/badges/1f407e77-a62d-4de4-acb6-d236c7fb62ec/public_url) |
+| 2026 | KubeCon + CloudNativeCon Europe | Speaker | 🎫 [credential](https://www.credly.com/badges/1f407e77-a62d-4de4-acb6-d236c7fb62ec/public_url) |
 | - | _Your next talk_ | _Title_ | slides · video |
 
 > 📣 **Want me to speak at your event or meetup?** → [me@hhristov.info](mailto:me@hhristov.info)
@@ -73,14 +73,15 @@ I care about making multi-tenancy and cluster security approachable on stage.
 
 <div align="center">
 
-<a href="https://www.credly.com/badges/d4353a7d-4ade-4af5-8b67-d1976825b0ac/public_url"><img src="img/kubestronaut.png" alt="Kubestronaut" width="90" height="90"></a>
-<a href="https://www.credly.com/badges/38526f68-d9cc-44b4-8a34-67c092588333/public_url"><img src="img/cka.png" alt="CKA" width="90" height="90"></a>
-<a href="https://www.credly.com/badges/464335c8-947d-4161-b483-d8a3a8275b94/public_url"><img src="img/ckad.png" alt="CKAD" width="90" height="90"></a>
-<a href="https://www.credly.com/badges/ec497faf-7d88-467e-850a-59829e8dac6d/public_url"><img src="img/cks.png" alt="CKS" width="90" height="90"></a>
-<a href="https://www.credly.com/badges/2f65ffb2-9a8c-4a15-90e9-13c1dab52896/public_url"><img src="img/kcna.png" alt="KCNA" width="90" height="90"></a>
-<a href="https://www.credly.com/badges/b446001e-2a92-4770-8987-7c6a35eefe9c/public_url"><img src="img/kcsa.png" alt="KCSA" width="90" height="90"></a>
-
-_Kubestronaut · CKA · CKAD · CKS · KCNA · KCSA_
+<!-- CERTS:START - auto-generated from Credly by .github/workflows/credly-badges.yml. Do not edit by hand. -->
+<a href="https://www.credly.com/badges/d4353a7d-4ade-4af5-8b67-d1976825b0ac/public_url"><img src="img/certs/d4353a7d-4ade-4af5-8b67-d1976825b0ac.png" alt="Kubestronaut" title="Kubestronaut" width="90" height="90"></a>
+<a href="https://www.credly.com/badges/1f407e77-a62d-4de4-acb6-d236c7fb62ec/public_url"><img src="img/certs/1f407e77-a62d-4de4-acb6-d236c7fb62ec.png" alt="Speaker: KubeCon + CloudNativeCon Europe 2026" title="Speaker: KubeCon + CloudNativeCon Europe 2026" width="90" height="90"></a>
+<a href="https://www.credly.com/badges/464335c8-947d-4161-b483-d8a3a8275b94/public_url"><img src="img/certs/464335c8-947d-4161-b483-d8a3a8275b94.png" alt="CKAD: Certified Kubernetes Application Developer" title="CKAD: Certified Kubernetes Application Developer" width="90" height="90"></a>
+<a href="https://www.credly.com/badges/38526f68-d9cc-44b4-8a34-67c092588333/public_url"><img src="img/certs/38526f68-d9cc-44b4-8a34-67c092588333.png" alt="CKA: Certified Kubernetes Administrator" title="CKA: Certified Kubernetes Administrator" width="90" height="90"></a>
+<a href="https://www.credly.com/badges/ec497faf-7d88-467e-850a-59829e8dac6d/public_url"><img src="img/certs/ec497faf-7d88-467e-850a-59829e8dac6d.png" alt="CKS: Certified Kubernetes Security Specialist" title="CKS: Certified Kubernetes Security Specialist" width="90" height="90"></a>
+<a href="https://www.credly.com/badges/4209b74a-615e-4c50-8347-1372d59ff848/public_url"><img src="img/certs/4209b74a-615e-4c50-8347-1372d59ff848.png" alt="KCNA: Kubernetes and Cloud Native Associate" title="KCNA: Kubernetes and Cloud Native Associate" width="90" height="90"></a>
+<a href="https://www.credly.com/badges/b446001e-2a92-4770-8987-7c6a35eefe9c/public_url"><img src="img/certs/b446001e-2a92-4770-8987-7c6a35eefe9c.png" alt="KCSA: Kubernetes and Cloud Native Security Associate" title="KCSA: Kubernetes and Cloud Native Security Associate" width="90" height="90"></a>
+<!-- CERTS:END -->
 
 </div>
 

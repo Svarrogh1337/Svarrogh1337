@@ -1,0 +1,44 @@
+name: Sync Credly badges
+
+# Pulls certifications from the public Credly profile and regenerates the
+# certifications block in README.md (see scripts/update-credly-badges.mjs).
+# No secrets required - the Credly badges.json feed is public.
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # daily at 05:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: credly-badges
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Update badges from Credly
+        env:
+          CREDLY_VANITY: svarrogh1337
+        run: node scripts/update-credly-badges.mjs
+
+      - name: Commit changes if any
+        run: |
+          if [ -n "$(git status --porcelain README.md img/certs)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md img/certs
+            git commit -m "chore: sync certifications from Credly"
+            git push
+          else
+            echo "No badge changes."
+          fi
