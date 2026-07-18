@@ -10,6 +10,7 @@
 
 import { mkdir, writeFile, readFile, readdir, unlink } from "node:fs/promises";
 import { existsSync } from "node:fs";
+import { execFileSync } from "node:child_process";
 import path from "node:path";
 
 const VANITY = process.env.CREDLY_VANITY || "svarrogh1337";
@@ -37,6 +38,48 @@ function extFromContentType(ct = "", url = "") {
 function priorityIndex(name) {
   const i = PRIORITY.findIndex((p) => name.toLowerCase().startsWith(p.toLowerCase()));
   return i === -1 ? PRIORITY.length : i;
+}
+
+// Locate ImageMagick (IM7 "magick", IM6 "convert"); null if unavailable.
+let _magick;
+function magickBin() {
+  if (_magick !== undefined) return _magick;
+  for (const bin of ["magick", "convert"]) {
+    try {
+      execFileSync(bin, ["-version"], { stdio: "ignore" });
+      return (_magick = bin);
+    } catch {}
+  }
+  return (_magick = null);
+}
+
+// Some Credly PNGs ship with an opaque white square background. When the four
+// corners are white, flood-fill transparency inward from each corner - this
+// removes the outer tile while preserving any white *inside* the badge (text
+// boxes), so it matches the transparent badges on a dark background.
+// No-op (and never throws) when the image is already transparent or when
+// ImageMagick isn't present.
+function fixWhiteBackground(file) {
+  const bin = magickBin();
+  if (!bin) return false;
+  try {
+    const corner = execFileSync(bin, [file, "-format", "%[pixel:p{0,0}]", "info:"], { encoding: "utf8" });
+    if (!/\(2[45][0-9],\s*2[45][0-9],\s*2[45][0-9]/.test(corner)) return false; // corner not white -> leave as-is
+    const [w, h] = execFileSync(bin, [file, "-format", "%w %h", "info:"], { encoding: "utf8" }).trim().split(/\s+/).map(Number);
+    const x2 = w - 1, y2 = h - 1;
+    execFileSync(bin, [
+      file, "-alpha", "set", "-channel", "RGBA", "-fuzz", "15%", "-fill", "none",
+      "-draw", "color 0,0 floodfill",
+      "-draw", `color ${x2},0 floodfill`,
+      "-draw", `color 0,${y2} floodfill`,
+      "-draw", `color ${x2},${y2} floodfill`,
+      file,
+    ]);
+    return true;
+  } catch (e) {
+    console.warn(`Could not fix background for ${path.basename(file)}: ${e.message}`);
+    return false;
+  }
 }
 
 async function main() {
@@ -71,7 +114,9 @@ async function main() {
     const ext = extFromContentType(img.headers.get("content-type") || "", b.image);
     const file = `${b.id}.${ext}`;
     const buf = Buffer.from(await img.arrayBuffer());
-    await writeFile(path.join(IMG_DIR, file), buf);
+    const dest = path.join(IMG_DIR, file);
+    await writeFile(dest, buf);
+    if (ext === "png") fixWhiteBackground(dest);
     keep.add(file);
     const alt = b.name.replace(/"/g, "'");
     lines.push(`<a href="${b.url}"><img src="img/certs/${file}" alt="${alt}" title="${alt}" width="${SIZE}" height="${SIZE}"></a>`);
