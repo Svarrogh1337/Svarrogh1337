@@ -7,8 +7,6 @@
 
 <div align="center">
 
-<img src="img/avatar.png" alt="Svarog emblem" width="200" height="200" />
-
 # Hristo Hristov
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=E5484D&center=true&vCenter=true&width=680&lines=Platform+Engineer;Kubernetes+Multi-Tenancy+%40+Project+Capsule;Making+shared+clusters+safe%2C+scalable+%26+boring)](https://github.com/Svarrogh1337)
