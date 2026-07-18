@@ -58,20 +58,15 @@ Also active across the Capsule ecosystem:
 
 ---
 
-## 🎤 Speaking & Writing
+## 🎤 Speaking
 
-I care about making multi-tenancy and cluster security approachable - on stage and in writing.
+I care about making multi-tenancy and cluster security approachable on stage.
 
 <!-- TODO: add real talks. Delete the example row once you fill this in. -->
 | Date | Event | Talk | Links |
 |------|-------|------|-------|
 | 2026 | KubeCon | _Topic TBA_ | 🎫 [badge](https://www.credly.com/badges/1f407e77-a62d-4de4-acb6-d236c7fb62ec/public_url) |
 | - | _Your next talk_ | _Title_ | slides · video |
-
-📝 **Latest writing** - auto-populates once you enable `.github/workflows/blog.yml` and set your feed URL:
-<!-- BLOG-POST-LIST:START -->
-- Posts from [hhristov.info](https://hhristov.info) will appear here.
-<!-- BLOG-POST-LIST:END -->
 
 > 📣 **Want me to speak at your event or meetup?** → [me@hhristov.info](mailto:me@hhristov.info)
 
