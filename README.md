@@ -77,20 +77,6 @@ I care about making multi-tenancy and cluster security approachable - on stage a
 
 ---
 
-## 📈 Activity
-
-<div align="center">
-
-![Stats](https://github-readme-stats.vercel.app/api?username=Svarrogh1337&show_icons=true&hide_border=true&theme=tokyonight&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Svarrogh1337&layout=compact&hide_border=true&theme=tokyonight&langs_count=8)
-
-<!-- Contribution snake - generated daily by .github/workflows/snake.yml -->
-![Snake](https://raw.githubusercontent.com/Svarrogh1337/Svarrogh1337/output/github-contribution-grid-snake-dark.svg)
-
-</div>
-
----
-
 ## 🎖️ Certifications
 
 <div align="center">
