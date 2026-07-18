@@ -15,11 +15,11 @@
 Kubestronaut, and CNCF community contributor working at the intersection of
 **multi-tenancy, cluster security, and platform reliability**.
 
-[![Website](https://img.shields.io/badge/Website-hhristov.info-4C7EF3?style=for-the-badge&logo=googlechrome&logoColor=white)](https://hhristov.info)
 <!-- TODO: replace CHANGE-ME with your real LinkedIn handle -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/CHANGE-ME)
-[![Kubernetes Slack](https://img.shields.io/badge/K8s_Slack-DM_me-611F69?style=for-the-badge&logo=slack&logoColor=white)](https://kubernetes.slack.com/team/U07BVSYJC64)
-[![Email](https://img.shields.io/badge/Email-me%40hhristov.info-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:me@hhristov.info)
+[Website](https://hhristov.info) ·
+[LinkedIn](https://www.linkedin.com/in/CHANGE-ME) ·
+[Kubernetes Slack](https://kubernetes.slack.com/team/U07BVSYJC64) ·
+[me@hhristov.info](mailto:me@hhristov.info)
 
 </div>
 
@@ -45,10 +45,7 @@ infrastructure **without stepping on each other or breaking isolation.**
 
 <div align="center">
 
-[![Capsule](https://img.shields.io/badge/projectcapsule%2Fcapsule-Maintainer-4C7EF3?style=for-the-badge&logo=kubernetes&logoColor=white)](https://github.com/projectcapsule/capsule)
-[![Stars](https://img.shields.io/github/stars/projectcapsule/capsule?style=for-the-badge&color=f5b400)](https://github.com/projectcapsule/capsule/stargazers)
-[![Release](https://img.shields.io/github/v/release/projectcapsule/capsule?style=for-the-badge&color=4C7EF3)](https://github.com/projectcapsule/capsule/releases)
-[![Contributors](https://img.shields.io/github/contributors/projectcapsule/capsule?style=for-the-badge&color=2ea44f)](https://github.com/projectcapsule/capsule/graphs/contributors)
+**Maintainer of [projectcapsule/capsule](https://github.com/projectcapsule/capsule)**
 
 </div>
 
