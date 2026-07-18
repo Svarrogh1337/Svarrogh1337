@@ -1,5 +1,5 @@
 <!--
-  PROFILE README — Vision: "Kubernetes Multi-Tenancy Authority"
+  PROFILE README - Vision: "Kubernetes Multi-Tenancy Authority"
   Sections marked TODO need one value from you (LinkedIn URL, talk rows, RSS feed).
   Everything else updates itself: shields badges + stats cards render live,
   the contribution snake is regenerated daily by .github/workflows/snake.yml.
@@ -32,15 +32,15 @@ infrastructure **without stepping on each other or breaking isolation.**
 
 | | Pillar | What it means |
 |---|---|---|
-| 🏢 | **Multi-Tenancy** | Turning single clusters into safe, self-service platforms for many teams — the core problem Capsule solves. |
+| 🏢 | **Multi-Tenancy** | Turning single clusters into safe, self-service platforms for many teams - the core problem Capsule solves. |
 | 🔐 | **Cluster Security** | Policy, isolation, and least-privilege by default. Backed by CKS + KCSA. |
 | ⚙️ | **Platform Reliability** | Scalable, boring-in-a-good-way infrastructure that teams can trust. |
 
 ---
 
-## 🛠️ Maintainer Spotlight — Project Capsule
+## 🛠️ Maintainer Spotlight - Project Capsule
 
-> A CNCF Sandbox operator that brings **native multi-tenancy** to Kubernetes —
+> A CNCF Sandbox operator that brings **native multi-tenancy** to Kubernetes -
 > letting platform teams host many isolated tenants on shared clusters.
 
 <div align="center">
@@ -60,15 +60,15 @@ Also active across the Capsule ecosystem:
 
 ## 🎤 Speaking & Writing
 
-I care about making multi-tenancy and cluster security approachable — on stage and in writing.
+I care about making multi-tenancy and cluster security approachable - on stage and in writing.
 
 <!-- TODO: add real talks. Delete the example row once you fill this in. -->
 | Date | Event | Talk | Links |
 |------|-------|------|-------|
 | 2026 | KubeCon | _Topic TBA_ | 🎫 [badge](https://www.credly.com/badges/1f407e77-a62d-4de4-acb6-d236c7fb62ec/public_url) |
-| — | _Your next talk_ | _Title_ | slides · video |
+| - | _Your next talk_ | _Title_ | slides · video |
 
-📝 **Latest writing** — auto-populates once you enable `.github/workflows/blog.yml` and set your feed URL:
+📝 **Latest writing** - auto-populates once you enable `.github/workflows/blog.yml` and set your feed URL:
 <!-- BLOG-POST-LIST:START -->
 - Posts from [hhristov.info](https://hhristov.info) will appear here.
 <!-- BLOG-POST-LIST:END -->
@@ -84,7 +84,7 @@ I care about making multi-tenancy and cluster security approachable — on stage
 ![Stats](https://github-readme-stats.vercel.app/api?username=Svarrogh1337&show_icons=true&hide_border=true&theme=tokyonight&count_private=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Svarrogh1337&layout=compact&hide_border=true&theme=tokyonight&langs_count=8)
 
-<!-- Contribution snake — generated daily by .github/workflows/snake.yml -->
+<!-- Contribution snake - generated daily by .github/workflows/snake.yml -->
 ![Snake](https://raw.githubusercontent.com/Svarrogh1337/Svarrogh1337/output/github-contribution-grid-snake-dark.svg)
 
 </div>
@@ -107,5 +107,5 @@ _Kubestronaut · CKA · CKAD · CKS · KCNA · KCSA_
 </div>
 
 <div align="center">
-<sub>💬 "Never trust quotes on the internet." — Abraham Lincoln, 1462</sub>
+<sub>💬 "Never trust quotes on the internet." - Abraham Lincoln, 1462</sub>
 </div>
