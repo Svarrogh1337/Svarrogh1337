@@ -81,6 +81,7 @@ I care about making multi-tenancy and cluster security approachable on stage.
 <a href="https://www.credly.com/badges/ec497faf-7d88-467e-850a-59829e8dac6d/public_url"><img src="img/certs/ec497faf-7d88-467e-850a-59829e8dac6d.png" alt="CKS: Certified Kubernetes Security Specialist" title="CKS: Certified Kubernetes Security Specialist" width="90" height="90"></a>
 <a href="https://www.credly.com/badges/4209b74a-615e-4c50-8347-1372d59ff848/public_url"><img src="img/certs/4209b74a-615e-4c50-8347-1372d59ff848.png" alt="KCNA: Kubernetes and Cloud Native Associate" title="KCNA: Kubernetes and Cloud Native Associate" width="90" height="90"></a>
 <a href="https://www.credly.com/badges/b446001e-2a92-4770-8987-7c6a35eefe9c/public_url"><img src="img/certs/b446001e-2a92-4770-8987-7c6a35eefe9c.png" alt="KCSA: Kubernetes and Cloud Native Security Associate" title="KCSA: Kubernetes and Cloud Native Security Associate" width="90" height="90"></a>
+<a href="https://www.credly.com/badges/cc657c54-793a-4377-b20a-13b2db69ab3c/public_url"><img src="img/certs/cc657c54-793a-4377-b20a-13b2db69ab3c.png" alt="LFC102: Inclusive Open Source Community Orientation" title="LFC102: Inclusive Open Source Community Orientation" width="90" height="90"></a>
 <!-- CERTS:END -->
 
 </div>
